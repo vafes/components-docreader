@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "jsx": "preserve",
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "exclude": ["**/*.test.ts", "docs/", "application/", "e2e/", "storybook/"],
+  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.tsx"]  
+}

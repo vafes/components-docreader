@@ -1,0 +1,1060 @@
+{
+	"$$mdtype": "Tag",
+	"name": "article",
+	"attributes": {},
+	"children": [
+		{
+			"$$mdtype": "Tag",
+			"name": "Note",
+			"attributes": { "type": "hotfixes", "title": "" },
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "p",
+					"attributes": {},
+					"children": ["Специальные элементы задаются с помощью md-кода или в исходном файле статьи."]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Table",
+			"attributes": {},
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "thead",
+					"attributes": {},
+					"children": [
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "th",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Элемент"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "th",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Код"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "th",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Результат"] }
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"$$mdtype": "Tag",
+					"name": "tbody",
+					"attributes": {},
+					"children": [
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Стрелка"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["-->"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["→"] }
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Тире"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["--"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["—"] }
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Экранирование"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["\\--"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["--"] }
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Кнопка"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[cmd:Это кнопка]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Cmd",
+													"attributes": { "text": "Это кнопка" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Кнопка с иконкой"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[cmd:Кнопка:alien]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Cmd",
+													"attributes": { "text": "Кнопка", "icon": "alien" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Кнопка-иконка"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[cmd::alien]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Cmd",
+													"attributes": { "text": "", "icon": "alien" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Сочетание клавиш"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[kbd:Ctrl+Z]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Kbd",
+													"attributes": { "text": "Ctrl+Z" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Иконка"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[icon:alien-monster:solid]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Icon",
+													"attributes": { "code": "alien-monster", "prefix": "solid" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Цветная иконка"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[icon:codepen:brands:green]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Icon",
+													"attributes": {
+														"code": "codepen",
+														"prefix": "brands",
+														"color": "green"
+													},
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": ["Альфа-метка"]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[alfa]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{ "$$mdtype": "Tag", "name": "Alfa", "attributes": {}, "children": [] }
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Бета-метка"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[beta]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{ "$$mdtype": "Tag", "name": "Beta", "attributes": {}, "children": [] }
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Заявка"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[issue:DR-1]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Issue",
+													"attributes": { "id": "DR-1" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"$$mdtype": "Tag",
+							"name": "tr",
+							"attributes": {},
+							"children": [
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{ "$$mdtype": "Tag", "name": "p", "attributes": {}, "children": ["Модуль"] }
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Code",
+													"attributes": {},
+													"children": ["[module:generator]"]
+												}
+											]
+										}
+									]
+								},
+								{
+									"$$mdtype": "Tag",
+									"name": "td",
+									"attributes": { "align": "left" },
+									"children": [
+										{
+											"$$mdtype": "Tag",
+											"name": "p",
+											"attributes": {},
+											"children": [
+												{
+													"$$mdtype": "Tag",
+													"name": "Module",
+													"attributes": { "id": "generator" },
+													"children": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				"Полный список кодов для иконок можно посмотреть на сайте ",
+				{
+					"$$mdtype": "Tag",
+					"name": "Link",
+					"attributes": { "href": "https://fontawesome.com/v6.0/icons?s=light" },
+					"children": ["библиотеки Font Awesome"]
+				},
+				"."
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Heading",
+			"attributes": { "level": 2, "title": "Изменение цвета текста", "id": "изменение-цвета-текста" },
+			"children": ["Изменение цвета текста"]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				"Для изменения цвета необходимо использовать  элемент ",
+				{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["[color:<цвет>]"] },
+				", где ",
+				{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["цвет"] },
+				" — это цвет представленный hex виде."
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Если добавить конструкцию:"] }
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["[color:#FF0000] text [/color]"] }
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Получится:"] }]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "Color",
+					"attributes": { "color": "#FF0000", "isInline": true },
+					"children": [" text "]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Heading",
+			"attributes": {
+				"level": 2,
+				"title": "Перенос строки в одном абзаце",
+				"id": "перенос-строки-в-одном-абзаце"
+			},
+			"children": ["Перенос строки в одном абзаце"]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				"Удобно использовать, когда нужно сделать логическое разделение в предложении. Или при формировании длинных таблиц."
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Если добавить конструкцию:"] }
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Fence",
+			"attributes": { "value": "первая строка в абзаце\\\nвторая строка в абзаце\n" },
+			"children": []
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Получится:"] }]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				"первая строка в абзаце",
+				{ "$$mdtype": "Tag", "name": "br", "attributes": {}, "children": [] },
+				"вторая строка в абзацев"
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Heading",
+			"attributes": {
+				"level": 2,
+				"title": "Атрибуты обозначения роли и времени",
+				"id": "атрибуты-обозначения-роли-и-времени"
+			},
+			"children": ["Атрибуты обозначения роли и времени"]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Если добавить конструкцию:"] }
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "Code",
+					"attributes": {},
+					"children": ["**Сбор замечаний на демо [who:Scrum-мастер] [when:на демо]**"]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Получится:"] }]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Сбор замечаний на демо"] },
+				" ",
+				{ "$$mdtype": "Tag", "name": "Who", "attributes": { "text": "Scrum-мастер" }, "children": [] },
+				" ",
+				{ "$$mdtype": "Tag", "name": "When", "attributes": { "text": "на демо" }, "children": [] }
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Heading",
+			"attributes": { "level": 2, "title": "Группы изображений", "id": "группы-изображений" },
+			"children": ["Группы изображений"]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": ["Можно сгруппировать несколько изображений по горизонтали или вертикали."]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				"Для группировки используется синтаксис: ",
+				{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["[img-X:путь1[:...путьN]]"] },
+				", где:"
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "ul",
+			"attributes": { "depth": 0 },
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "li",
+					"attributes": { "depth": 0 },
+					"children": [
+						{
+							"$$mdtype": "Tag",
+							"name": "p",
+							"attributes": {},
+							"children": [
+								{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["путь"] },
+								" — путь до изображения относительно текущей страницы"
+							]
+						}
+					]
+				},
+				{
+					"$$mdtype": "Tag",
+					"name": "li",
+					"attributes": { "depth": 0 },
+					"children": [
+						{
+							"$$mdtype": "Tag",
+							"name": "p",
+							"attributes": {},
+							"children": [
+								{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["X"] },
+								" - направление: горизонтальное ",
+								{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["h"] },
+								" или вертикальное ",
+								{ "$$mdtype": "Tag", "name": "Code", "attributes": {}, "children": ["v"] }
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Группировка по горизонтали"] },
+				":"
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "Code",
+					"attributes": {},
+					"children": ["[img-h:../images/1.svg:../images/2.svg]"]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Img-h",
+			"attributes": { "postfix": "h", "images": ["../images/1.svg", "../images/2.svg"] },
+			"children": []
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{ "$$mdtype": "Tag", "name": "strong", "attributes": {}, "children": ["Группировка по вертикали"] },
+				":"
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "p",
+			"attributes": {},
+			"children": [
+				{
+					"$$mdtype": "Tag",
+					"name": "Code",
+					"attributes": {},
+					"children": ["[img-v:../images/1.svg:../images/2.svg]"]
+				}
+			]
+		},
+		{
+			"$$mdtype": "Tag",
+			"name": "Img-v",
+			"attributes": { "postfix": "v", "images": ["../images/1.svg", "../images/2.svg"] },
+			"children": []
+		}
+	]
+}
